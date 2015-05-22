@@ -4,7 +4,7 @@ var concat = require('concat-stream');
 
 var insert = require('../../lib/insert-module-globals');
 var bpack = require('../../lib/browser-pack');
-var mdeps = require('module-deps');
+var mdeps = require('../../lib/module-deps');
 
 test('insert globals', function (t) {
     var expected = [ 'global' ];

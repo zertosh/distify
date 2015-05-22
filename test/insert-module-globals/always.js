@@ -1,5 +1,5 @@
 var test = require('tap').test;
-var mdeps = require('module-deps');
+var mdeps = require('../../lib/module-deps');
 var bpack = require('../../lib/browser-pack');
 var insert = require('../../lib/insert-module-globals');
 var concat = require('concat-stream');
